@@ -1,0 +1,126 @@
+:root{
+    --blanco:#fff;
+    --rojoOscuro:#3C011A;
+    --rojogris:#621132;
+    --letras:black;
+    --fuente:'Quicksand', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuente);
+    background-color: var(--rojoOscuro);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+
+.imagen-formulario::before{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+   
+}
+
+.imagenLogin{
+background-image: url("/img/logo.png");
+background-position: center center;
+background-size: cover;
+height: 600px;
+flex: 0 0 calc(40%);
+position: relative;
+}
+
+
+
+@media(min-width:768px){
+    .imagen-formulario{
+        height: auto;
+        background-position: right;
+    }
+
+}
+@media(min-width:1200px){
+    .imagen-formulario{
+        background-position: center;
+    }
+}
+
+@media(min-width:768px){
+    .contenedor-formulario{
+        display: flex;
+    }
+}
+
+.formulario{
+    padding: 100px;
+    background-color: var(--blanco);
+}
+.texto-formulario h2, .input label, .password-olvidada a, .texto-formulario p{
+    color: var(--letras);
+}
+.texto-formulario h2{
+    font-size: 40px;
+    text-align: center;
+}
+.texto-formulario p{
+    font-size: 22px;
+    text-align: center;
+}
+.input label{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.password-olvidada a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.loginboton{
+
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+    
+    background-color: var(--rojogris);
+    color: var(--blanco);
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: background-color .3s ease-in-out;
+    text-decoration: none;
+
+    
+}
+.loginboton:hover{
+    cursor: pointer;
+    background-color: var(--rojoOscuro);
+}
+
