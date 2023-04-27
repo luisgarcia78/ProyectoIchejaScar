@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     
+    
     <title>Login</title>
 </head>
 
@@ -23,17 +24,16 @@
             <div class="texto-formulario">
                 <h2>Bienvenido de nuevo</h2>
                 <p>Inicia sesión con tu cuenta</p> 
-               
             </div>
             <div class="input">
                 <label for="usuario">Usuario</label>
                 <input placeholder="Ingresa tu nombre" type="text" id="usuario">
             </div>
-            <div class="input">
+              <div class="input">
                 <label for="contraseña">Contraseña</label>
-                <input placeholder="Ingresa tu contraseña" type="password" id="contraseña">
-            </div>
-          
+                <input placeholder="Ingresa tu contraseña" type="password" id="pass" name="pass">
+                <button id="show-password-btn" type="button" class="btn btn-primary">Primary<i class="bi bi-eye-fill"></i></button>
+              </div>
             <div class="input">
                 <br>
                 <a class="loginboton" href="index.html" role="button">iniciar sesion</a>
@@ -41,7 +41,7 @@
             </div>
         </form>
     </div>
-
+    <script src="js/Login.js"></script>
 </body>
 
 </html>

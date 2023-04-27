@@ -41,7 +41,7 @@ body{
 background-image: url("/img/logo.png");
 background-position: center center;
 background-size: cover;
-height: 600px;
+height: 650px;
 flex: 0 0 calc(40%);
 position: relative;
 }

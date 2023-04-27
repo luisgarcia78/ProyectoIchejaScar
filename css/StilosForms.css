@@ -1,0 +1,29 @@
+.form{
+    margin-top: 10px;
+    color:#000;
+    padding: 40px;
+  
+
+
+
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 17px;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: inline-block;
+    width: 300px;
+    border: 3px solid #891845;
+  }
+
+  input{
+    border: 3px solid rgba(98, 17, 50, 1);
+}
+  }
