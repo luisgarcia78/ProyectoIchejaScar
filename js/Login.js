@@ -15,3 +15,6 @@ function togglePasswordVisibility() {
     passwordIcon.classList.add('bi bi-eye-slash-fill');
   }
 }
+
+const closeButton = document.createElement('i');
+closeButton.classList.add('bi', 'bi-x');
