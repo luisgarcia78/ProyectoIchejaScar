@@ -48,6 +48,47 @@ position: relative;
 }
 
 
+/*estructura de inputs login pass usuario*/
+label {
+	font-weight: bold;
+	margin-top: 40px;
+    font-size: 22px;
+}
+
+input[type="text"], input[type="password"], button {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+.password-wrapper {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.toggle-password {
+	position: absolute;
+	right: 0;
+	border: none;
+	background-color: transparent;
+	color: #0000EE;
+	cursor: pointer;
+	font-size: 14px;
+}
+/*fin de css*/
 
 @media(min-width:768px){
     .imagen-formulario{
@@ -72,16 +113,14 @@ position: relative;
     padding: 100px;
     background-color: var(--blanco);
 }
-.texto-formulario h2, .input label, .password-olvidada a, .texto-formulario p{
-    color: var(--letras);
-}
+
 .texto-formulario h2{
     font-size: 40px;
     text-align: center;
 }
 .texto-formulario p{
     font-size: 22px;
-    text-align: center;
+    text-align: justify;
 }
 .input label{
     display: block;
@@ -91,10 +130,13 @@ position: relative;
 }
 
 .input input{
-    width: 100%;
-    padding: 10px 16px;
+    width: 90%;
+    padding: 5px 16px;
     border-radius: 5px;
-    outline: none;
+    outline: #3C011A;
+    
+
+
 }
 
 

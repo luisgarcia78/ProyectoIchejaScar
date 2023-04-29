@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="css/stylemenu.css">
     <link rel="stylesheet" href="css/StilosForms.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
     <script src="https://kit.fontawesome.com/0123456789.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Inicio</title>
 </head>
 <body>
@@ -46,7 +45,7 @@
                 
                     <a href="Inventario.html"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" fill="currentColor" class="bi bi-box2-fill" viewBox="0 0 16 16">
                         <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM15 4.667V5H1v-.333L1.5 4h6V1h1v3h6l.5.667Z"/>
-                    </svg><i class="bi bi-database"></i></i><span>Inventario</span></a>
+                    </svg><i></i></i><span>Inventario</span></a>
 
                     <a href="#"><i> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
                         <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
@@ -66,13 +65,13 @@
 
                     <a href="Plazas.html"><i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                         <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-                      </svg></i><span>Plazas comunitarias</span></a>
+                    </svg></i><span>Plazas comunitarias</span></a>
                 </nav>
             </div>
             <main class="main col">
                 <div class="row  align-content-center text-center">
                     <div class="columna col-lg-6">
-                        <h1>Actualizar Departamento</h1>
+                        <h1>Registrar Plazas</h1>
                         <br>
                         
                     </div>
@@ -83,67 +82,55 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="N/C" class="form-label">N/C:</label>
-                            <input type="text" id="N_c" name="n_c" ><br><br>
+                            <label for="N/C" class="form-label">N/C Plaza:</label>
+                            <input type="text" id="N_c" name="n_c" class=""><br><br>
             
-                            <label for="N/C" class="form-label">clave1:</label>
-                            <input type="number" id="clave1" name="clave1" ><br><br>
+                            <label for="N/C" class="form-label">Coordinación:</label>
+                            <input type="number" id="clave1" name="clave1" class=""><br><br>
             
-                            <label for="Clave2" class="form-label">Clave2:</label>
-                            <input type="number" id="Clave2" name="Clave2" ><br><br>
+                            <label for="Clave2" class="form-label">No.plaza:</label>
+                            <input type="number" id="Clave2" name="Clave2" class=""><br><br>
 
                             <label for="Ubicacion">Ubicación:</label>
                             <textarea id="Ubicacion" name="Ubicación"></textarea><br><br>
             
-                            <label for="N/C" class="form-label">Numero del inmueble:</label>
-                            <input type="number" id="No.inmueble" name="No.inmueble" ><br><br><br>
+                            <label for="N/C" class="form-label">status:</label>
+                            <input type="text" id="No.inmueble" name="No.inmueble" class=""><br><br><br>
             
+                            
                         </div>
                         <div class="col-md-6">
-                            <div class="input-group-prepend" style="margin-left: 0px;">
-                                <label for="NombreDepa" class="form-label">Nombre de departamento:</label>
-                                <select class="input-group-append" aria-label="Default select example">
-                                        <option selected>Seleccione una departamento</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                </select>
-                            </div><br>
-                    
-                            <div class="input-group-prepend" style="margin-left: 0px;">
-                                <label for="Name_user" class="form-label">Nombre del usuario:</label>
-                                <select class="input-group-append" aria-label="Default select example">
-                                        <option selected>Seleccione un usuario</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                </select>
-                            </div><br>
+                            <label for="No.dep" class="form-label">Nombre de plaza:</label>
+                            <input type="text" id="No.dep" name="No.dep" class=""><br><br>
+
                             <label for="Direccion">Dirección:</label>
                             <textarea id="Direccion" name="Direccion"></textarea><br><br>
             
-                            <label for="Localizacion" title="aqui debe de ir la Localizacion">Localización:</label>
+                            <label for="No.usu" class="form-label">Nombre del usuario:</label>
+                            <input type="text" id="No.usu" name="No.usu" class=""><br><br>
+
+                            <label for="Localizacion">Localización:</label>
                             <textarea id="Localizacion" name="Localizacion"></textarea><br><br>
                         </div>
                     </div>
-                <div>
-            </form>  
-                        <br>
-                        <div style="text-align: center;">
-                            <a class="BotonGuardar" href="Coordinacion.html" role="button" style="display: inline-block;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+
+                    <div style="text-align: center;">
+                        <a class="BotonGuardar" href="Plazas.html" role="button" style="display: inline-block;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg>
+                        <span style="vertical-align: middle;">Agregar</span>
+                        </a>
+                    
+                        <a class="BotonGuardar" href="Plazas.html" role="button" style="display: inline-block;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
                             </svg>
-                            <span style="vertical-align: middle;">Agregar</span>
-                            </a>
-                        
-                            <a class="BotonGuardar" href="Coordinacion.html" role="button" style="display: inline-block;">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                                </svg>
-                            <span style="vertical-align: middle;">Cancelar</span>
-                            </a>
-                        </div>
+                        <span style="vertical-align: middle;">Cancelar</span>
+                        </a>
+                    </div>
+            </div>
+            </form> 
             </main>
         </div>
     </div>
