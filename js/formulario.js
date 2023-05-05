@@ -1,10 +1,10 @@
-// Función para mostrar el mensaje de confirmación al cancelar
-function confirmarCancelar() {
-    if (confirm("¿Está seguro de que desea cancelar el registro?")) {
-      window.location.href = "Plazas.html";
-    }
+const cancelBtn = document.getElementById('cancel-btn');
+
+cancelBtn.addEventListener('click', function() {
+  if (confirm('¿Estás seguro que deseas cancelar la operación?')) {
+    // Si el usuario confirma, realiza la acción de cancelar
+    // ...
+  } else {
+    // Si el usuario cancela, no realiza ninguna acción
   }
-  
-  // Agregar evento de click a los botones de cancelar
-  document.querySelector("#botones a:nth-of-type(2)").addEventListener("click", confirmarCancelar);
-  
+});
