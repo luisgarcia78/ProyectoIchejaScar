@@ -24,7 +24,7 @@
                     <li>
                         <a href="index.php" class="px-3 text-light perfil dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle user"></i></a>
 
-                        <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
+                         <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
                             <a class="dropdown-item menuperfil cerrar" href="login.php"><i class="fas fa-sign-out-alt m-1"></i>Salir
                             </a>
                         </div>
