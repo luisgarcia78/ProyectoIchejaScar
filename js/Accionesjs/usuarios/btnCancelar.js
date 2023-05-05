@@ -19,7 +19,9 @@ cancelBtnPlaza.addEventListener('click', function() {
       });
 
       setTimeout(function() {
-        window.location.href = 'plazas.html';
+        setTimeout(function() {
+          window.location.href = 'Plazas.php';
+        }, 4000);
       }, 4000);
     } else {
       // Si el usuario cancela, muestra el mensaje de "Operación cancelada" y espera unos segundos antes de redirigir a la página "departamentos.html"
