@@ -215,13 +215,8 @@
                             <td>@twitter</td>
                             <td>@twitter</td>
                             <td>@twitter</td>
-<<<<<<< HEAD:Plazas.php
                             <td><a href="ActualizarPlazas.php"><i class="bi bi-pencil-square"></i></a>
                               <button class="borrar" id="eliminarBtnPlaza" type="button"><i class="bi bi-trash3-fill"></i></button>
-=======
-                            <td><a href="ActualizarPlazas.html"><i class="bi bi-pencil-square"></i></a>
-                              <button class="borrar" id="eliminarBtn" type="button"><i class="bi bi-trash3-fill"></i></button>
->>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813:Plazas.html
                             </td> 
                           </tr>
                         </tbody>
