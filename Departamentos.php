@@ -220,11 +220,7 @@
                                 <td>@twitter</td>
                                 <td>@twitter</td>
                                 <td>lorem</td>
-<<<<<<< HEAD:Departamentos.php
                                 <td><a href="ActualizarDepa.php"><i class="bi bi-pencil-square"></i></a>
-=======
-                                <td><a href="ActualizarDepa.html"><i class="bi bi-pencil-square"></i></a>
->>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813:Departamentos.html
                                   <button class="borrar" id="eliminarBtn" type="button"><i class="bi bi-trash3-fill"></i></button>
                                 </td> 
                                 </tbody>

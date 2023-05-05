@@ -218,11 +218,7 @@
                               <td>@twitter</td>
                               <td>@twitter</td>
                               <td>lorem</td>
-<<<<<<< HEAD:Coordinacion.php
                               <td><a href="ActualizarCoord.php"><i class="bi bi-pencil-square"></i></a>
-=======
-                              <td><a href="ActualizarCoord.html"><i class="bi bi-pencil-square"></i></a>
->>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813:Coordinacion.html
                                 <button class="borrar" id="eliminarBtn" type="button"><i class="bi bi-trash3-fill"></i></button>
                               </tr>
                           </tbody>

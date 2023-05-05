@@ -243,15 +243,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/646c794df3.js"></script> 
-<<<<<<< HEAD:Plazas.php
     <script src="js//Accionesjs/btnCancelarPlaza.js"></script> 
     <script src="js/Accionesjs/agregarPlaza.js"></script> 
     <script src="js/Accionesjs/plazas/btnEliminarPlaza.js"></script>
-=======
-    <script src="/js//Accionesjs/btnCancelarPlaza.js"></script> 
-    <script src="/js/Accionesjs/agregarPlaza.js"></script> 
-    <script src="/js/Accionesjs/btnEliminarPlaza.js"></script>
->>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813:Plazas.html
 	
 </body>
 </html>

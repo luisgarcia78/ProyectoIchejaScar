@@ -220,11 +220,7 @@
                         </table> 
                   <!-- Botón de agregar -->
                   <div>
-<<<<<<< HEAD:Inventario.php
                           <a href="AgregarDepa.php"><button class="btn-add btn-lg">
-=======
-                          <a href="AgregarDepa.html"><button class="btn-add btn-lg">
->>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813:Inventario.html
                             <i class="fas fa-plus-circle "></i> Agregar
                           </button></a>
                         
