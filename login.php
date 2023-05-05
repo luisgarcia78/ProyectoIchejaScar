@@ -44,7 +44,7 @@
                 <!-- boton para iniciar sesion -->
             <div class="input">
               <br>
-              <a class="loginboton" href="index.html" role="button">iniciar sesión</a>
+              <a class="loginboton" href="index.php" role="button">iniciar sesión</a>
             </div>
         </form>
     </div>
