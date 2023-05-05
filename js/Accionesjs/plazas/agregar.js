@@ -2,6 +2,10 @@ const form = document.querySelector('#FormAdd');
 
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // Evita que el formulario se envíe automáticamente
+<<<<<<< HEAD
+=======
+  
+>>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813
   Swal.fire({
     title: '¿Estás seguro que deseas agregar esta información?',
     showCancelButton: true,
@@ -11,6 +15,7 @@ form.addEventListener('submit', function(event) {
     allowOutsideClick: false
   }).then((result) => {
     if (result.isConfirmed) {
+<<<<<<< HEAD
       // Si el usuario confirma, envía los datos al archivo correspondiente
       const formData = new FormData(form); // Crea un objeto FormData con los datos del formulario
       fetch('operauser.php', {
@@ -64,6 +69,25 @@ form.addEventListener('submit', function(event) {
         showConfirmButton: false,
         timer: 3000
       });
+=======
+      // Si el usuario confirma, realiza la acción de cancelar
+      Swal.fire({
+        icon: 'success',
+        title: '¡Guardado correctamente!',
+        toast: true, // Muestra el mensaje como una notificación flotante
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000 // Muestra el mensaje durante 3 segundos
+      });
+
+      // Espera 4 segundos antes de redirigir a la página "plazas.html"
+      setTimeout(function() {
+        window.location.href = 'plazas.html';
+      }, 3000);
+    } else {
+      // Si el usuario cancela, redirige al usuario a departamentos.html
+      
+>>>>>>> ac09b7f3fa1df8745636b7aab90b986485128813
     }
   });
 });
